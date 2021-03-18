@@ -19,11 +19,10 @@
 
 -   io.to(socketId).emit('message', 'for your eyes only');
 -   socket.broadcast.to(socketId).emit('message', 'for your eyes only');
--   io.sockets.sockets.get(socketId).emit("message", "for your eyes only"); (v3.0.0)
 
 ### Send to all sockets except for a specific one:
 
--   io.sockets.sockets.get(socketId).broadcast.emit("message", "we exclude one socket"); (v3.0.0)
+-   io.sockets.sockets.get(socketId).broadcast.emit("message", "we exclude one socket");
 
 ## Rooms
 
