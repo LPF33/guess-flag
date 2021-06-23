@@ -1,19 +1,19 @@
 {
-    "name": "estimatepopulation",
+    "name": "guessflag",
     "version": "1.0.0",
-    "description": "simple game for guessing the population of a random country",
+    "description": "simple game for guessing the right flag of a random country",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
+        "start": "node server.js",
+        "dev": "nodemon server.js"
     },
     "keywords": [
         "socket.io"
     ],
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.1",
-        "socket.io": "^4.0.0"
+    "devDependencies": {
+        "nodemon": "^2.0.7"
     }
 }
